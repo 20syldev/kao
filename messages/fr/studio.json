@@ -1,0 +1,65 @@
+{
+    "editor": {
+        "title": "Éditeur",
+        "loading": "Chargement de l’éditeur",
+        "label": "Éditeur d’avatar",
+        "hint": "Quand votre avatar est prêt, cliquez sur SAVE dans l’éditeur et saisissez un nom.",
+        "fullscreen": "Plein écran",
+        "exitFullscreen": "Quitter le plein écran"
+    },
+    "export": {
+        "title": "Export",
+        "size": "Taille",
+        "format": "Format",
+        "pixels": "{size} px",
+        "formats": {
+            "png": "PNG transparent",
+            "pngWhite": "PNG fond blanc",
+            "jpeg": "JPEG",
+            "webp": "WebP"
+        },
+        "note": "Rendu depuis les dessins vectoriels : net à toutes les tailles."
+    },
+    "codes": {
+        "title": "Codes d’avatar",
+        "description": "Chaque export fournit un code pour retoucher le même avatar plus tard.",
+        "new": "Nouvel avatar",
+        "open": "Ouvrir un fichier",
+        "paste": "Coller un code"
+    },
+    "paste": {
+        "title": "Coller un code d’avatar",
+        "description": "Collez le contenu d’un fichier .kao ou un code copié depuis Kao.",
+        "label": "Code d’avatar",
+        "submit": "Ouvrir",
+        "cancel": "Annuler",
+        "invalid": "Ce n’est pas un code d’avatar valide."
+    },
+    "history": {
+        "title": "Mes avatars",
+        "empty": "Vos avatars exportés apparaîtront ici. Ils restent dans ce navigateur.",
+        "open": "Modifier {name}",
+        "delete": "Supprimer {name}",
+        "untitled": "Sans nom",
+        "deleted": "{name} supprimé",
+        "undo": "Annuler",
+        "exportBackup": "Enregistrer une sauvegarde de mes avatars",
+        "importBackup": "Restaurer des avatars depuis une sauvegarde",
+        "imported": "{count, plural, =0 {Aucun nouvel avatar} one {# avatar restauré} other {# avatars restaurés}}",
+        "importInvalid": "Ce fichier n’est pas une sauvegarde d’avatars valide."
+    },
+    "result": {
+        "untitled": "Avatar exporté",
+        "details": "{width} × {height} px, {size} Ko, {file}",
+        "preview": "Aperçu de {name}",
+        "download": "Télécharger l’image",
+        "code": "Télécharger le code",
+        "copy": "Copier le code",
+        "copied": "Code copié",
+        "resume": "Reprendre l’édition"
+    },
+    "errors": {
+        "export": "L’export a échoué : {message}",
+        "open": "Impossible d’ouvrir ce fichier."
+    }
+}

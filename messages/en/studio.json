@@ -1,0 +1,65 @@
+{
+    "editor": {
+        "title": "Editor",
+        "loading": "Loading the editor",
+        "label": "Avatar editor",
+        "hint": "When your avatar is ready, click SAVE in the editor and type a name.",
+        "fullscreen": "Fullscreen",
+        "exitFullscreen": "Exit fullscreen"
+    },
+    "export": {
+        "title": "Export",
+        "size": "Size",
+        "format": "Format",
+        "pixels": "{size} px",
+        "formats": {
+            "png": "Transparent PNG",
+            "pngWhite": "PNG on white",
+            "jpeg": "JPEG",
+            "webp": "WebP"
+        },
+        "note": "Drawn from the vector artwork, so it stays sharp at every size."
+    },
+    "codes": {
+        "title": "Avatar codes",
+        "description": "Every export comes with a code to edit the same avatar later.",
+        "new": "New avatar",
+        "open": "Open a file",
+        "paste": "Paste a code"
+    },
+    "paste": {
+        "title": "Paste an avatar code",
+        "description": "Paste the content of a .kao file or a code copied from Kao.",
+        "label": "Avatar code",
+        "submit": "Open",
+        "cancel": "Cancel",
+        "invalid": "This is not a valid avatar code."
+    },
+    "history": {
+        "title": "My avatars",
+        "empty": "Your exported avatars will appear here. They are kept in this browser only.",
+        "open": "Edit {name}",
+        "delete": "Delete {name}",
+        "untitled": "Untitled",
+        "deleted": "{name} deleted",
+        "undo": "Undo",
+        "exportBackup": "Save a backup of my avatars",
+        "importBackup": "Restore avatars from a backup",
+        "imported": "{count, plural, =0 {No new avatar} one {# avatar restored} other {# avatars restored}}",
+        "importInvalid": "This file is not a valid avatar backup."
+    },
+    "result": {
+        "untitled": "Exported avatar",
+        "details": "{width} × {height} px, {size} KB, {file}",
+        "preview": "Preview of {name}",
+        "download": "Download image",
+        "code": "Download code",
+        "copy": "Copy code",
+        "copied": "Code copied",
+        "resume": "Resume editing"
+    },
+    "errors": {
+        "export": "The export failed: {message}",
+        "open": "Could not open this file."
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "tagline": "Manga avatar editor",
+    "theme": {
+        "toggle": "Toggle theme"
+    },
+    "language": {
+        "label": "Language",
+        "en": "English",
+        "fr": "French"
+    },
+    "privacy": {
+        "label": "Privacy",
+        "tip": "Nothing leaves your browser"
+    }
+}

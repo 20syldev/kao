@@ -1,0 +1,15 @@
+{
+    "tagline": "Éditeur d’avatars manga",
+    "theme": {
+        "toggle": "Changer de thème"
+    },
+    "language": {
+        "label": "Langue",
+        "en": "Anglais",
+        "fr": "Français"
+    },
+    "privacy": {
+        "label": "Confidentialité",
+        "tip": "Rien ne quitte votre navigateur"
+    }
+}
