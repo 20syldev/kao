@@ -1,0 +1,31 @@
+<!-- 
+******************************************************
+FILE DESCRITTORE DI LIBRARY/MALE/03/06 » ABITI/SCIARPE
+****************************************************** 
+
+» SCALER ~ indica di quanto scalare le thumb
+» XPOS e YPOS ~ indica di quanto traslare le thumb
+
+» CANVAS ~ rappresenta in quale canvas (1-7) va inserita la grafica 
+» MCLEV ~ rappresenta in quale livello nel canvas box va la grafica
+
+» DEFCOL ~ rappresenta l'id del colore di default sXX oppure mXX
+
+» DELETER ~ indica se c'è l'icona X nella libreria thumb
+-->
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<treeRoot main_path="library/m/03/06" movies="3" scaler="30" xPos="-98" yPos="-168" defcol="m01" canvas="6" mclev="12">
+
+	<item>deleter</item>
+
+	<item>01.swf</item>
+	
+	<item>02.swf</item>
+    
+    <item>03.swf</item>
+
+</treeRoot>

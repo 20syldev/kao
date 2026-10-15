@@ -1,0 +1,49 @@
+<!-- 
+******************************************************
+FILE DESCRITTORE DI LIBRARY/MALE/05/07 » STUFF/GADGETS
+****************************************************** 
+
+» SCALER ~ indica di quanto scalare le thumb
+» XPOS e YPOS ~ indica di quanto traslare le thumb
+
+» CANVAS ~ rappresenta in quale canvas (1-7) va inserita la grafica 
+» MCLEV ~ rappresenta in quale livello nel canvas box va la grafica
+
+» DEFCOL ~ rappresenta l'id del colore di default sXX oppure mXX
+
+» DELETER ~ indica se c'è l'icona X nella libreria thumb
+-->
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<treeRoot main_path="library/m/05/07" movies="4" scaler="100" xPos="0" yPos="0" defcol="m00" canvas="1" mclev="2">
+
+	<item>deleter</item>
+	
+	<item>01.swf</item>
+	
+	<item>02.swf</item>
+	
+	<item>03.swf</item>
+	
+	<item>04.swf</item>
+	
+	<item>05.swf</item>
+    
+    <item>06.swf</item>
+    
+    <item>07.swf</item>
+	
+	<item>08.swf</item>
+	
+	<item>09.swf</item>
+	
+	<item>10.swf</item>
+	
+	<item>11.swf</item>
+	
+	<item>12.swf</item>
+
+</treeRoot>

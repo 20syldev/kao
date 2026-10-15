@@ -1,0 +1,70 @@
+<!-- 
+*******************************************************
+FILE DESCRITTORE DI LIBRARY/FEMALE/03/08 » STUFF/CAPPELLO
+******************************************************* 
+
+» SCALER ~ indica di quanto scalare le thumb
+» XPOS e YPOS ~ indica di quanto traslare le thumb
+
+» CANVAS ~ rappresenta in quale canvas (1-7) va inserita la grafica 
+» MCLEV ~ rappresenta in quale livello nel canvas box va la grafica
+
+» DEFCOL ~ rappresenta l'id del colore di default sXX oppure mXX
+
+» DELETER ~ indica se c'è l'icona X nella libreria thumb
+
+» BURKASTYLE ~ indica se le orecchie (ed eventuali orecchini) ed i capelli sono invisibili (es: burka o simili) N:visibili, Y:invisibili
+
+» PRESSHAIR ~ indica se i capelli si devono schiacciare con questo cappello
+
+-->
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<treeRoot main_path="library/f/03/08" movies="2" scaler="14" xPos="-50" yPos="-10" defcol="m00" canvas="1" mclev="1">
+
+	<item>deleter</item>
+
+	<item burkastyle="N" presshair="Y">01.swf</item>
+	
+	<item burkastyle="N" presshair="N">02.swf</item>
+	
+	<item burkastyle="N" presshair="N">03.swf</item>
+	
+	<item burkastyle="N" presshair="N">04.swf</item>
+	
+	<item burkastyle="Y" presshair="Y">05.swf</item>
+	
+	<item burkastyle="N" presshair="Y">06.swf</item>
+	
+	<item burkastyle="N" presshair="Y">07.swf</item>
+	
+	<item burkastyle="N" presshair="Y">08.swf</item>
+    
+    <item burkastyle="N" presshair="Y">09.swf</item>
+	
+    <item burkastyle="N" presshair="Y">10.swf</item>
+    
+    <item burkastyle="N" presshair="N">11.swf</item>
+    
+    <item burkastyle="Y" presshair="Y">12.swf</item>
+    
+    <item burkastyle="N" presshair="Y">13.swf</item>
+    
+    <item burkastyle="N" presshair="Y">14.swf</item>
+    
+    <item burkastyle="N" presshair="Y">15.swf</item>
+	
+	<item burkastyle="N" presshair="Y">16.swf</item>
+	
+	<item burkastyle="N" presshair="Y">17.swf</item>
+	
+	<item burkastyle="N" presshair="Y">18.swf</item>
+	
+	
+	
+</treeRoot>
+
+

@@ -1,0 +1,35 @@
+<!-- 
+******************************************************
+FILE DESCRITTORE DI LIBRARY/FEMALE/05/08 » STUFF/COLLANE
+****************************************************** 
+
+» SCALER ~ indica di quanto scalare le thumb
+» XPOS e YPOS ~ indica di quanto traslare le thumb
+
+» CANVAS ~ rappresenta in quale canvas (1-7) va inserita la grafica 
+» MCLEV ~ rappresenta in quale livello nel canvas box va la grafica
+
+» DEFCOL ~ rappresenta l'id del colore di default sXX oppure mXX
+
+» DELETER ~ indica se c'è l'icona X nella libreria thumb
+-->
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<treeRoot main_path="library/f/05/03" movies="1" scaler="100" xPos="0" yPos="0" defcol="m09" canvas="6" mclev="6">
+
+	<item>deleter</item>
+	
+	<item>01.swf</item>
+	
+	<item>02.swf</item>
+    
+    <item>03.swf</item>
+    
+    <item>04.swf</item>
+	
+	<item>05.swf</item>
+
+</treeRoot>

@@ -1,0 +1,130 @@
+<!-- 
+*******************************************************
+FILE DESCRITTORE DI LIBRARY/FEMALE/05/02 » STUFF/OCCHIALI
+******************************************************* 
+
+» SCALER ~ indica di quanto scalare le thumb
+» XPOS e YPOS ~ indica di quanto traslare le thumb
+
+» CANVAS ~ rappresenta in quale canvas (1-7) va inserita la grafica 
+» MCLEV ~ rappresenta in quale livello nel canvas box va la grafica
+
+» DEFCOL ~ rappresenta l'id del colore di default sXX oppure mXX
+
+» DELETER ~ indica se c'è l'icona X nella libreria thumb
+-->
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<treeRoot main_path="library/f/05/02" movies="3" scaler="33" xPos="-92" yPos="-111" defcol="m01" canvas="2" mclev="3">
+
+	<item>deleter</item>
+	
+<item>01.swf</item>
+	
+	<item>02.swf</item>
+	
+	<item>03.swf</item>
+	
+	<item>04.swf</item>
+	
+	<item>05.swf</item>
+	
+	<item>06.swf</item>
+	
+	<item>07.swf</item>
+	
+	<item>08.swf</item>
+	
+	<item>09.swf</item>
+	
+	<item>10.swf</item>
+	
+	<item>11.swf</item>
+    
+    <item>12.swf</item>
+    
+    <item>13.swf</item>
+    
+    <item>14.swf</item>
+    
+    <item>15.swf</item>
+    
+    <item>16.swf</item>
+    
+    <item>17.swf</item>
+    
+    <item>18.swf</item>
+    
+    <item>19.swf</item>
+    
+    <item>20.swf</item>
+    
+    <item>21.swf</item>
+
+    <item>22.swf</item>
+    
+    <item>23.swf</item>
+    
+    <item>24.swf</item>
+    
+    <item>25.swf</item>
+
+    <item>26.swf</item>
+    
+    <item>27.swf</item>
+    
+    <item>28.swf</item>
+    
+    <item>29.swf</item>
+    
+    <item>30.swf</item>
+    
+    <item>31.swf</item>
+    
+    <item>32.swf</item>
+    
+    <item>33.swf</item>
+
+    <item>34.swf</item>
+
+    <item>35.swf</item>
+    
+    <item>36.swf</item>
+    
+    <item>37.swf</item>
+    
+    <item>38.swf</item>
+    
+    <item>39.swf</item>
+
+    <item>40.swf</item>
+    
+    <item>41.swf</item>
+    
+    <item>42.swf</item>
+    
+    <item>43.swf</item>
+
+    <item>44.swf</item>
+    
+    <item>45.swf</item>
+    
+    <item>46.swf</item>
+    
+    <item>47.swf</item>
+    
+    <item>48.swf</item>
+    
+    <item>49.swf</item>
+    
+    <item>50.swf</item>
+	
+	<item>51.swf</item>
+	
+	<item>52.swf</item>
+
+
+</treeRoot>

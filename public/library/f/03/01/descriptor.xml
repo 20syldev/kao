@@ -1,0 +1,50 @@
+<!-- 
+****************************************************
+FILE DESCRITTORE DI LIBRARY/FEMALE/03/01 » ABITI/BASIC
+**************************************************** 
+
+» SCALER ~ indica di quanto scalare le thumb
+» XPOS e YPOS ~ indica di quanto traslare le thumb
+
+» CANVAS ~ rappresenta in quale canvas (1-7) va inserita la grafica 
+» MCLEV ~ rappresenta in quale livello nel canvas box va la grafica
+
+» DEFCOL ~ rappresenta l'id del colore di default sXX oppure mXX
+
+» DELETER ~ indica se c'è l'icona X nella libreria thumb
+-->      
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<treeRoot main_path="library/f/03/01" movies="3" scaler="25" xPos="-88" yPos="-148" defcol="w" canvas="6" mclev="1">
+
+	<item>01.swf</item>
+    <item>02.swf</item>
+    <item>03.swf</item>
+    <item>04.swf</item>
+    <item>05.swf</item>
+    <item>06.swf</item>
+    <item>07.swf</item>
+    <item>08.swf</item>
+    <item>09.swf</item>
+    <item>10.swf</item>
+    <item>11.swf</item>
+    <item>12.swf</item>
+    <item>13.swf</item>
+    <item>14.swf</item>
+    <item>15.swf</item>
+    <item>16.swf</item>
+    <item>17.swf</item>
+    <item>18.swf</item>
+    <item>19.swf</item>
+    <item>20.swf</item>
+	<item>21.swf</item>
+    <item>22.swf</item>
+	<item>23.swf</item>
+	<item>24.swf</item>
+    <item>25.swf</item>
+	
+   
+</treeRoot>

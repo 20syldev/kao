@@ -1,0 +1,138 @@
+<!-- 
+**************************************************
+FILE DESCRITTORE DEI COLORI GENERALI(m) E PELLE(s)
+
+» COLORE BASE ~ B
+» COLORE CHIARO ~ C
+» COLORE SCURO ~ S
+» idColor ~ identifica il colore -> m00 oppure s00
+**************************************************		
+-->
+
+
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<treeRoot>
+
+    <!-- sottoalbero colori SKIN -->
+	<subTree nome="S">
+	
+		<color B="0xE0EAEF" C="0xFDFEFF" S="0xB0C9D6" idColor="s00"></color>
+		<color B="0xDED0BF" C="0xF1E8DB" S="0xA18376" idColor="s01"></color>
+		<color B="0xFCCFBD" C="0xFDE8DD" S="0xDA9E8E" idColor="s02"></color>
+		<color B="0xEDBCA6" C="0xFCD8C5" S="0xCA8F7F" idColor="s03"></color>	
+		<color B="0xE2AD96" C="0xFCCDAC" S="0xBA8975" idColor="s04"></color>
+		<color B="0xDAA286" C="0xEFB69A" S="0xBC8571" idColor="s05"></color>
+		<color B="0xD99681" C="0xEEAE96" S="0xBB7A6C" idColor="s06"></color>
+		<color B="0xCE9A7F" C="0xE2AC92" S="0xB17D6A" idColor="s07"></color>
+		<color B="0xE4BA94" C="0xFCD4A9" S="0xBB947A" idColor="s08"></color>
+		<color B="0xE5C699" C="0xFFE6B1" S="0xBC9F7F" idColor="s09"></color>
+		<color B="0xA07555" C="0xC3996B" S="0x815A45" idColor="s10"></color>
+		<color B="0x926C53" C="0xB18265" S="0x634936" idColor="s11"></color>
+		<color B="0x785F5C" C="0x9A8479" S="0x584543" idColor="s12"></color>
+		<color B="0x543F38" C="0x73635A" S="0x44312D" idColor="s13"></color>
+		<color B="0x363436" C="0x47484A" S="0x2D2A2B" idColor="s14"></color>
+        
+		<color B="0xF4CDB4" C="0xFAE9CD" S="0xCD987C" idColor="s15"></color>
+        
+
+			
+	
+	</subTree>
+
+
+
+
+	<!-- sottoalbero colori MAIN -->
+	<subTree nome="M">
+		
+		<color C="0xFFFFFF" B="0xB0C2C9" S="0x4F595E" idColor="m00"></color>
+		<color C="0x757779" B="0x4A4D4E" S="0x212424" idColor="m01"></color>
+		<color C="0x575757" B="0x000000" S="0x000000" idColor="m02"></color>
+		<color C="0x5A4A42" B="0x342922" S="0x0E0000" idColor="m03"></color>
+		<color C="0xAA6459" B="0x6C2E21" S="0x321A04" idColor="m04"></color>
+		<color C="0xA87C4F" B="0x5B3B26" S="0x321A04" idColor="m05"></color>
+		<color C="0x9C7B3A" B="0x65471D" S="0x4C3317" idColor="m06"></color>
+		<color C="0xB7922E" B="0x7F5C24" S="0x6A4B1D" idColor="m07"></color>
+		<color C="0xF4B230" B="0xCC7226" S="0x9B4B1A" idColor="m08"></color>
+		<color C="0xFFDE00" B="0xDFA915" S="0xA76C1A" idColor="m09"></color>
+		<color C="0x0069B1" B="0x143E66" S="0x13244B" idColor="m10"></color>
+		<color C="0x2E8AC9" B="0x285481" S="0x063B5B" idColor="m11"></color>
+		<color C="0x26A9E0" B="0x2F7FAF" S="0x195D7F" idColor="m12"></color>
+		<color C="0x93A9D7" B="0x7183B2" S="0x435275" idColor="m13"></color>
+		<color C="0xBC2026" B="0x7C151E" S="0x55131A" idColor="m14"></color>
+		<color C="0xAC3831" B="0x751514" S="0x5B1010" idColor="m15"></color>
+		<color C="0xE90A8A" B="0xA52069" S="0x841A52" idColor="m16"></color>
+		<color C="0xF1647E" B="0xD0425C" S="0x932A3E" idColor="m17"></color>
+		<color C="0xF6A5C1" B="0xD26893" S="0x90335F" idColor="m18"></color>
+		<color C="0xD9ACCF" B="0xA16898" S="0x664162" idColor="m19"></color>
+		<color C="0x009345" B="0x136F36" S="0x004B21" idColor="m20"></color>
+		<color C="0xA8BA3A" B="0x7A932F" S="0x465C1E" idColor="m21"></color>
+		<color C="0x8BC53F" B="0x70A23E" S="0x466E26" idColor="m22"></color>
+		<color C="0x008E86" B="0x006B64" S="0x005650" idColor="m23"></color>
+		<color C="0x00ABA9" B="0x008281" S="0x005453" idColor="m24"></color>
+		<color C="0x00AE95" B="0x008370" S="0x005749" idColor="m25"></color>
+		<color C="0xB7D3A3" B="0x769D7F" S="0x496A59" idColor="m26"></color>
+		<color C="0xB6B492" B="0x828C74" S="0x545D48" idColor="m27"></color>
+		<color C="0x9CB49A" B="0x73917A" S="0x3A5442" idColor="m28"></color>
+		<color C="0x697C70" B="0x3A4E43" S="0x22332A" idColor="m29"></color>
+		<color C="0xA958A2" B="0x91278F" S="0x6F106D" idColor="m30"></color>
+		<color C="0x8256A3" B="0x6B2C91" S="0x402461" idColor="m31"></color>
+		<color C="0xF58771" B="0xF15A29" S="0xAF3F25" idColor="m32"></color>
+		<color C="0xFBF289" B="0xD7DF23" S="0x9FA91A" idColor="m33"></color>
+		<color C="0xC1AA9F" B="0x9B8578" S="0x77655F" idColor="m34"></color>
+		<color C="0xE0D5C3" B="0xC2B59B" S="0x988C77" idColor="m35"></color>
+        <color C="0xF7DDB3" B="0xDDBC8E" S="0xC19778" idColor="m36"></color>
+        
+        <!-- New Colors -->
+        
+        <color C="0xFFF7D0" B="0xF9EEAA" S="0xE8D3B4" idColor="m37"></color>       
+        <color C="0xFFF4AA" B="0xFFDA00" S="0xDDC37C" idColor="m38"></color>  
+        <color C="0xFFE195" B="0xFABD33" S="0xD28C2F" idColor="m39"></color> 
+        <color C="0xF5BF6B" B="0xF2981B" S="0xCC6F04" idColor="m40"></color> 
+        <color C="0xEB7757" B="0xE4342B" S="0xB22B23" idColor="m41"></color> 
+        <color C="0xD24257" B="0xA7121C" S="0x650F10" idColor="m42"></color> 
+        <color C="0xA92833" B="0x851519" S="0x650F10" idColor="m43"></color> 
+        <color C="0xE43672" B="0xD00B41" S="0xA31328" idColor="m44"></color> 
+        <color C="0xBF5B6A" B="0xA93E4B" S="0x85313B" idColor="m45"></color> 
+        <color C="0xF6F8FB" B="0xDAE5F3" S="0xB1C0CE" idColor="m46"></color> 
+        <color C="0xE6F4FB" B="0xC4DDF0" S="0xA1B6C7" idColor="m47"></color> 
+        <color C="0xCBE9F6" B="0x9BCEEA" S="0x84B0C9" idColor="m48"></color> 
+        <color C="0xA7DAF0" B="0x6BBFE7" S="0x5BA3C6" idColor="m49"></color> 
+        <color C="0x8ECAEA" B="0x20B2E3" S="0x388FAE" idColor="m50"></color> 
+        <color C="0x4CABDB" B="0x2689C5" S="0x0E74A3" idColor="m51"></color>
+        <color C="0x6B96CA" B="0x3D75B4" S="0x326198" idColor="m52"></color>
+        <color C="0x6780BA" B="0x4A62A6" S="0x405078" idColor="m53"></color>
+        <color C="0xF8F8E3" B="0xCCE7E5" S="0x93A7A7" idColor="m54"></color>
+        <color C="0x6AC1C6" B="0x00A1B0" S="0x008491" idColor="m55"></color>
+        <color C="0x20B9E1" B="0x0098C7" S="0x007BA1" idColor="m56"></color>
+        <color C="0xB1CDD7" B="0x7BA7BB" S="0x5F8394" idColor="m57"></color>
+        <color C="0x6AA5BA" B="0x508AA4" S="0x426B79" idColor="m58"></color>
+        <color C="0x5194B4" B="0x246E8E" S="0x1B5C79" idColor="m59"></color>
+        <color C="0x38788D" B="0x1C536B" S="0x18404E" idColor="m61"></color>   
+        <color C="0x2E5B6B" B="0x143847" S="0x0B232D" idColor="m62"></color>   
+        <color C="0xFDF0EE" B="0xF9D4CA" S="0xAC8084" idColor="m63"></color>   
+        <color C="0xF4D8D3" B="0xF5B4A5" S="0xB67675" idColor="m64"></color>   
+        <color C="0xF9CEBC" B="0xF19D99" S="0xC57F7E" idColor="m65"></color>   
+        <color C="0xF8E0EA" B="0xF3B9D2" S="0xCD90AB" idColor="m66"></color>   
+        <color C="0xF7C9CF" B="0xEE98BC" S="0xCB7C7B" idColor="m67"></color>   
+        <color C="0xED99BC" B="0xE6609A" S="0xBA4E7F" idColor="m68"></color>   
+        <color C="0xE85F8D" B="0xE32259" S="0xC01F4C" idColor="m69"></color>   
+        <color C="0xF7F7F7" B="0xE7E8DA" S="0xB8BAB0" idColor="m70"></color>   
+        <color C="0xECEEE0" B="0xCFD1B7" S="0x9BA696" idColor="m71"></color>  
+        <color C="0xD7D1C3" B="0xBAB199" S="0x968F7D" idColor="m72"></color>  
+        <color C="0xE8D8B7" B="0xD5C292" S="0xB69879" idColor="m73"></color>  
+        <color C="0xD7A374" B="0xBD854B" S="0x996D3D" idColor="m74"></color>  
+        <color C="0xC8C89A" B="0xA2A471" S="0x80815A" idColor="m75"></color>  
+        <color C="0xCABA9C" B="0xA28878" S="0x494C29" idColor="m76"></color> 
+        <color C="0xEAEDB8" B="0xBCC88D" S="0x678C60" idColor="m77"></color>  
+        <color C="0xAFD08D" B="0x92B083" S="0x708874" idColor="m78"></color> 
+        <color C="0x91C05B" B="0x66A747" S="0x497E36" idColor="m79"></color> 
+        <color C="0x41A84C" B="0x13832E" S="0x2C6A23" idColor="m80"></color>  
+        <color C="0x2D8D42" B="0x106628" S="0x00431C" idColor="m81"></color> 
+            
+        
+	</subTree>
+	
+</treeRoot>

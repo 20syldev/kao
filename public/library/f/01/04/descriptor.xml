@@ -1,0 +1,72 @@
+<!-- 
+************************************************************
+FILE DESCRITTORE DI LIBRARY/FEMALE/01/04 » FACCIA/SOPRACCIGLIA
+************************************************************ 
+
+» SCALER ~ indica di quanto scalare le thumb
+» XPOS e YPOS ~ indica di quanto traslare le thumb
+
+» CANVAS ~ rappresenta in quale canvas (1-7) va inserita la grafica 
+» MCLEV ~ rappresenta in quale livello nel canvas box va la grafica
+
+» DEFCOL ~ rappresenta l'id del colore di default sXX oppure mXX
+
+» DELETER ~ indica se c'è l'icona X nella libreria thumb
+
+» DISABLEDIST ~ indica se il modificatore distance deve essere disattivato(Y) oppure no(N)
+
+» ROTOPOS ~ indica se il modificatore di rotazione è attivo(Y) o disattivo(N)
+-->
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<treeRoot main_path="library/f/01/04" movies="3" scaler="32" xPos="-93" yPos="-90" defcol="m00" canvas="3" mclev="4">
+
+	<item disabledist="N" rotopos="Y">01.swf</item>
+	
+	<item disabledist="N" rotopos="Y">02.swf</item>
+	
+	<item disabledist="N" rotopos="Y">03.swf</item>
+	
+	<item disabledist="N" rotopos="Y">04.swf</item>
+	
+	<item disabledist="N" rotopos="Y">05.swf</item>
+	
+	<item disabledist="N" rotopos="Y">06.swf</item>
+	
+	<item disabledist="N" rotopos="Y">07.swf</item>
+	
+	<item disabledist="N" rotopos="Y">08.swf</item>
+	
+	<item disabledist="N" rotopos="Y">09.swf</item>
+	
+	<item disabledist="N" rotopos="Y">10.swf</item>
+	
+	<item disabledist="N" rotopos="Y">11.swf</item>
+	
+	<item disabledist="Y" rotopos="N">12.swf</item>
+	
+	<item disabledist="N" rotopos="Y">13.swf</item>
+	
+	<item disabledist="N" rotopos="Y">14.swf</item>
+    
+    <item disabledist="N" rotopos="Y">15.swf</item>
+    
+    <item disabledist="N" rotopos="Y">16.swf</item>
+    
+    <item disabledist="N" rotopos="Y">17.swf</item>
+    
+    <item disabledist="N" rotopos="Y">18.swf</item>
+	    
+    <item disabledist="N" rotopos="Y">19.swf</item>
+    
+    <item disabledist="N" rotopos="Y">20.swf</item>
+    
+    <item disabledist="N" rotopos="Y">21.swf</item>
+	
+    <item disabledist="N" rotopos="Y">22.swf</item>
+    
+    <item disabledist="N" rotopos="Y">23.swf</item>
+</treeRoot>

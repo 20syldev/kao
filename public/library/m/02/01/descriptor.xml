@@ -1,0 +1,58 @@
+<!-- 
+**************************************************************
+FILE DESCRITTORE DI LIBRARY/MALE/02/01 » CAPELLI/CORTI_FRANGIA
+**************************************************************
+
+» SCALER ~ indica di quanto scalare le thumb
+» XPOS e YPOS ~ indica di quanto traslare le thumb
+
+» CANVAS ~ rappresenta in quale canvas (1-7) va inserita la grafica 
+» MCLEV ~ rappresenta in quale livello nel canvas box va la grafica
+
+» DEFCOL ~ rappresenta l'id del colore di default sXX oppure mXX
+
+» DELETER ~ indica se c'è l'icona X nella libreria thumb
+
+» RESIZECAP ~ indica se l'eventuale cappello deve allargarsi
+-->
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<treeRoot main_path="library/m/02/01" movies="3" scaler="15" xPos="-25" yPos="-19" defcol="m02" canvas="2" mclev="2">
+
+	<item>deleter</item>
+
+	<item resizecap="0">01.swf</item>
+	<item resizecap="0">02.swf</item>
+	<item resizecap="0">03.swf</item>
+	<item resizecap="1">04.swf</item>
+	<item resizecap="1">05.swf</item>
+	<item resizecap="1">06.swf</item>
+	<item resizecap="1">07.swf</item>
+	<item resizecap="1">08.swf</item>
+	<item resizecap="0">09.swf</item>
+	<item resizecap="1">10.swf</item>
+	<item resizecap="1">11.swf</item>
+	<item resizecap="1">12.swf</item>
+	<item resizecap="1">13.swf</item>
+	<item resizecap="1">14.swf</item>
+	<item resizecap="1">15.swf</item>
+	<item resizecap="1">16.swf</item>
+   	<item resizecap="1">17.swf</item>    
+    <item resizecap="1">18.swf</item> 
+    <item resizecap="1">19.swf</item>   
+    <item resizecap="1">20.swf</item>  
+    <item resizecap="1">21.swf</item> 
+    <item resizecap="1">22.swf</item>  
+    <item resizecap="1">23.swf</item> 
+    <item resizecap="1">24.swf</item>    
+    <item resizecap="1">25.swf</item> 
+    <item resizecap="1">26.swf</item> 
+    <item resizecap="1">27.swf</item> 
+    <item resizecap="0">28.swf</item> 
+    <item resizecap="0">29.swf</item> 
+	<item resizecap="1">30.swf</item> 
+
+</treeRoot>

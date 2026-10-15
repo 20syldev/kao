@@ -1,0 +1,101 @@
+<!-- 
+*****************************************************
+FILE DESCRITTORE DI LIBRARY/FEMALE/01/03 » FACCIA/OCCHI
+***************************************************** 
+
+» SCALER ~ indica di quanto scalare le thumb
+» XPOS e YPOS ~ indica di quanto traslare le thumb
+
+» CANVAS ~ rappresenta in quale canvas (1-7) va inserita la grafica 
+» MCLEV ~ rappresenta in quale livello nel canvas box va la grafica
+
+» DEFCOL ~ rappresenta l'id del colore di default sXX oppure mXX
+
+» DELETER ~ indica se c'è l'icona X nella libreria thumb
+
+» DISABLEDIST ~ indica se il modificatore distance deve essere disattivato(Y) opuure no(N)
+
+» DISABLEMK ~ indica se il make-up (occhi) è abilitato(Y) o no(N)
+
+» DISABLEPOS9 ~ indica se lo spostamento POS9 è disabilitato(Y) oppure no(N)
+-->
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<treeRoot main_path="library/f/01/03" movies="4" scaler="38" xPos="-114" yPos="-131" defcol="m03" canvas="3" mclev="3">
+
+	<item disabledist="N" disablemk="N" disablepos9="N">01.swf</item>
+	
+    <item disabledist="N" disablemk="N" disablepos9="N">02.swf</item>
+	
+	<item disabledist="N" disablemk="N" disablepos9="N">03.swf</item>
+	
+	<item disabledist="N" disablemk="N" disablepos9="Y">04.swf</item>
+	
+	<item disabledist="N" disablemk="N" disablepos9="N">05.swf</item>
+	
+	<item disabledist="N" disablemk="N" disablepos9="Y">06.swf</item>
+	
+	<item disabledist="N" disablemk="N" disablepos9="Y">07.swf</item>
+	
+	<item disabledist="N" disablemk="N" disablepos9="Y">08.swf</item>
+	
+	<item disabledist="N" disablemk="N" disablepos9="Y">09.swf</item>
+	
+	<item disabledist="N" disablemk="N" disablepos9="Y">10.swf</item>
+	
+	<item disabledist="N" disablemk="N" disablepos9="Y">11.swf</item>
+	
+	<item disabledist="N" disablemk="N" disablepos9="Y">12.swf</item>
+	
+	<item disabledist="N" disablemk="N" disablepos9="Y">13.swf</item>
+	
+    <item disabledist="N" disablemk="N" disablepos9="N">14.swf</item>
+	
+    <item disabledist="N" disablemk="N" disablepos9="Y">15.swf</item>
+    
+    <item disabledist="N" disablemk="N" disablepos9="N">16.swf</item>
+    
+    <item disabledist="N" disablemk="N" disablepos9="N">17.swf</item>
+	
+    <item disabledist="N" disablemk="N" disablepos9="N">18.swf</item>
+    
+    <item disabledist="N" disablemk="N" disablepos9="Y">19.swf</item>
+    
+    <item disabledist="N" disablemk="N" disablepos9="Y">20.swf</item>
+	
+    <item disabledist="N" disablemk="N" disablepos9="N">21.swf</item>
+    
+    <item disabledist="N" disablemk="N" disablepos9="Y">22.swf</item>
+    
+    <item disabledist="N" disablemk="N" disablepos9="N">23.swf</item>
+    
+    <item disabledist="N" disablemk="N" disablepos9="N">24.swf</item>
+    
+    <item disabledist="N" disablemk="N" disablepos9="N">25.swf</item>
+    
+    <item disabledist="N" disablemk="N" disablepos9="Y">26.swf</item>
+    
+    <item disabledist="N" disablemk="N" disablepos9="N">27.swf</item>
+    
+    <item disabledist="N" disablemk="N" disablepos9="N">28.swf</item>
+    
+    <item disabledist="N" disablemk="N" disablepos9="N">29.swf</item>
+    
+    <item disabledist="N" disablemk="N" disablepos9="Y">30.swf</item>
+    
+    <item disabledist="N" disablemk="N" disablepos9="N">31.swf</item>
+    
+    <item disabledist="N" disablemk="N" disablepos9="N">32.swf</item>
+    
+    <item disabledist="N" disablemk="N" disablepos9="N">33.swf</item>
+    
+    <item disabledist="N" disablemk="N" disablepos9="N">34.swf</item>
+    
+    <item disabledist="N" disablemk="N" disablepos9="N">35.swf</item>
+	
+	<item disabledist="N" disablemk="N" disablepos9="N">36.swf</item>
+	
+</treeRoot>

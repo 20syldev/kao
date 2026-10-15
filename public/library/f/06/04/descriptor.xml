@@ -1,0 +1,25 @@
+<!-- 
+*****************************************************
+FILE DESCRITTORE DI LIBRARY/FEMALE/06/04 » SFONDO/METEO
+***************************************************** 
+
+» SCALER ~ indica di quanto scalare le thumb
+» XPOS e YPOS ~ indica di quanto traslare le thumb
+
+» CANVAS ~ rappresenta in quale canvas (1-7) va inserita la grafica 
+» MCLEV ~ rappresenta in quale livello nel canvas box va la grafica
+
+» DELETER ~ indica se c'è l'icona X nella libreria thumb
+-->
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<treeRoot main_path="library/f/06/04" movies="1" scaler="100" xPos="0" yPos="0" canvas="1" mclev="3">
+
+	<item>deleter</item>
+
+	<item>01.swf</item>
+
+</treeRoot>

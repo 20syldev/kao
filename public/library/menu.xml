@@ -1,0 +1,156 @@
+<!-- 
+***********************************************************************
+FILE DESCRITTORE DEL MENU DINAMICO DEL CANVAS
+
+metodi disponibili:
+» ZOOMS ~ ingrandimento e rimpicciolimento
+» UPDW ~ su e giù
+» SXDX ~ destra e sinistra
+» DIST ~ distanza orizzontale
+» WRTX ~ scrivi la frase
+» MKUP ~ make-up
+» POS9 ~ posizioni occhi (1-9)
+» CP ~ subtree color palette dedicata (Skin = S o Main = M)
+» BG ~ indica se lo sfondo della thumb ha il colore non standard rosa o blue del sesso (Y = carne, W = bianco)
+» IDARRAY ~ indica in quale zona dell'array scivere (1 to Max)
+» GENDER ~ indica se è una voceit (M)ALE, (F)EMALE o (B)OTH
+
+» CANVAS ~ rappresenta in quale canvas (1-7) va inserita la grafica 
+» MCLEV ~ rappresenta in quale livello nel canvas box va la grafica
+
+» CNUMM, CNUMF ~ indica quanti clip (M e F) sono presenti nella libreria (per il randomize) cnumm/cnumf = "0" » viene escluso
+
+» HIDDEN ~ determina se una voceit è invisibile nel menu (cmq caricata!)
+*********************************************************************** 
+-->
+
+
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<treeRoot>
+
+
+    <!-- FACCIA -->
+	<link voceit="FAACCIA" voceen="Face" vocefr="Visage" vocede="Gesicht" vocees="Cara" dir="01">
+		<sub_link voceit="FORMA" voceen="Shape" vocefr="Forme" vocede="Form" vocees="Forma" idarray="1" gender="b" CP="S" zooms="Y" canvas="4" mclev="0" cnumm="28" cnumf="13">01</sub_link>
+		<sub_link voceit="ORECCHIE" voceen="Ears" vocefr="Oreilles" vocede="Ohren" vocees="Oídos" idarray="2" gender="b"  CP="S" canvas="5" mclev="0" cnumm="4" cnumf="4">02</sub_link>
+		<sub_link voceit="OCCHI" voceen="Eyes" vocefr="Yeux" vocede="Augen" vocees="Ojos" idarray="3" gender="b" zooms="Y" dist="Y" pos9="Y" CP="M" BG="Y" canvas="3" mclev="3" cnumm="28" cnumf="26">03</sub_link>
+		<sub_link voceit="SOPRACCIGLIA" voceen="Eyebrows" vocefr="Sourcils" vocede="Augenbrauen" vocees="Cejas" idarray="4" gender="b" updw="Y" dist="Y" CP="M" BG="Y" canvas="3" mclev="4" cnumm="28" cnumf="14">04</sub_link>
+		<sub_link voceit="NASO" voceen="Nose" vocefr="Nez" vocede="Nase" vocees="Nariz" idarray="5" gender="b" updw="Y" zooms="Y" BG="Y" CP="S" canvas="3" mclev="2" cnumm="28" cnumf="24">05</sub_link>
+		<sub_link voceit="BOCCA" voceen="Mouth" vocefr="Bouche" vocede="Mund" vocees="Boca" idarray="6" gender="b" updw="Y" zooms="Y" BG="Y" CP="S" canvas="3" mclev="0" cnumm="26" cnumf="13">06</sub_link>
+		<sub_link voceit="LINEE" voceen="Lines" vocefr="Lignes" vocede="Linien" vocees="Read" idarray="7" gender="b" updw="Y" BG="Y" canvas="4" mclev="2" cnumm="25" cnumf="16">07</sub_link>
+		<sub_link voceit="PARTICOLARI" voceen="Details" vocefr="Détails" vocede="Details" vocees="Detalles" idarray="8" gender="b" updw="Y" BG="Y" canvas="4" mclev="7" cnumm="26" cnumf="26">08</sub_link>
+		<sub_link voceit="ALTRI SEGNI" voceen="Other Signs" vocefr="Autres Signes" vocede="Andere Zeichen" vocees="Otros Signos" idarray="9" gender="b" updw="Y" BG="Y" canvas="4" mclev="8" cnumm="19" cnumf="19">09</sub_link>
+		<sub_link voceit="BASETTE" voceen="Sideburns" vocefr="Favoris" vocede="Koteletten" vocees="Patillas" idarray="10" gender="m" CP="M" BG="W" canvas="2" mclev="1" cnumm="27" cnumf="0">10</sub_link>
+		<sub_link voceit="BAFFI" voceen="Mustache" vocefr="Moustache" vocede="Schnurrbart" vocees="Bigote" idarray="11" gender="m" CP="M" updw="Y" zooms="Y" BG="Y" canvas="3" mclev="1" cnumm="27" cnumf="0">11</sub_link>
+		<sub_link voceit="BARBA" voceen="Beard" vocefr="Barbe" vocede="Bart" vocees="Barba" idarray="12" gender="m" CP="M" BG="Y" canvas="4" mclev="10" cnumm="2" cnumf="0">12</sub_link>
+	</link>
+	
+	
+	
+	
+	
+	<!-- CAPELLI [dati solo per FRANGIA] -->
+	<link voceit="CAPELLI" voceen="Hair" vocefr="Cheveux" vocede="Haar" vocees="Pelo" dir="02">
+		<sub_link voceit="CORTI" voceen="Short" vocefr="Court" vocede="Kurz" vocees="Corto" idarray="13" gender="b" CP="M" canvas="2" mclev="2" BG="W" cnumm="17" cnumf="14">01</sub_link>
+		<sub_link voceit="LUNGHI" voceen="Long" vocefr="Long" vocede="Lang" vocees="Largo" idarray="14" gender="b" CP="M" canvas="2" mclev="2" BG="W" cnumm="15" cnumf="21">02</sub_link>
+		<!-- <sub_link voceit="CREA" voceen="Build" vocefr="Crée" vocede="Schafft" vocees="Crea" idarray="15" gender="b" CP="M" cnumm="0" cnumf="0"></sub_link>-->
+	</link>
+	
+	
+	
+	
+	
+	<!-- ABITI -->
+	<link voceit="ABITI" voceen="Clothes" vocefr="Vetements" vocede="Kleider" vocees="Ropa" dir="03">
+		<sub_link voceit="BASIC" voceen="Basic" vocefr="Basic" vocede="Basic" vocees="Basic" idarray="16" gender="b" CP="M" canvas="6" mclev="1" BG="W" cnumm="17" cnumf="1">01</sub_link>
+		<sub_link voceit="CLASSIC" voceen="Classic" vocefr="Classic" vocede="Classic" vocees="Classic" idarray="17" gender="b" CP="M" canvas="6" mclev="4" cnumm="1" cnumf="0">02</sub_link>
+		<sub_link voceit="EXTRA" voceen="Extra" vocefr="Extra" vocede="Extra" vocees="Extra" idarray="18" gender="b" CP="M" canvas="6" mclev="1" cnumm="1" cnumf="0">03</sub_link>
+		<sub_link voceit="GIACCHE" voceen="Jackets" vocefr="Vestes" vocede="Jacken" vocees="Chaquetas" idarray="19" gender="b" CP="M" canvas="6" mclev="8" cnumm="13" cnumf="0">04</sub_link>
+		<sub_link voceit="CRAVATTE" voceen="Ties" vocefr="Liens" vocede="Bindungen" vocees="Lazos" idarray="20" gender="b" CP="M" canvas="6" mclev="5" cnumm="27" cnumf="0">05</sub_link>
+		<sub_link voceit="SSCIARPE" voceen="Scarves" vocefr="Echarpes" vocede="Schals" vocees="Bufandas" idarray="21" gender="b" CP="M" canvas="6" mclev="12" cnumm="1" cnumf="0">06</sub_link>
+		<sub_link voceit="CAPELLI" voceen="Hats" vocefr="Chapeaux" vocede="Hüte" vocees="Sombreros" idarray="42" gender="b" updw="Y" CP="M" canvas="1" mclev="1" cnumm="0" cnumf="0">08</sub_link>
+		<sub_link voceit="ITEM" voceen="Item" vocefr="Item" vocede="Item" vocees="Item" idarray="22" gender="b" CP="M" canvas="6" mclev="9" cnumm="1" cnumf="0">07</sub_link>
+	</link>
+	
+	     
+		 
+	
+
+	<!-- LOGO -->
+	<link voceit="LOGO" voceen="Logo" vocefr="Logo" vocede="Logo" vocees="Logo" dir="04">
+		<sub_link voceit="LOGO" voceen="LOGO" vocefr="Symbole" vocede="Symbol" vocees="Símbolo" idarray="23" gender="b" updw="Y" sxdx="Y" CP="M" canvas="6" mclev="3" cnumm="47" cnumf="0">01</sub_link>
+		<sub_link voceit="SCRIVI" voceen="Write" vocefr="Tapez" vocede="Schreiben" vocees="Escribe" idarray="24" gender="b" wrtx="Y" updw="Y" CP="M" canvas="6" mclev="2" cnumm="0" cnumf="0">02</sub_link>
+	</link>
+	
+	
+	
+	
+
+	<!-- STUFF -->
+	<link voceit="STUFF" voceen="Stuff" vocefr="Stuff" vocede="Stuff" vocees="Stuff" dir="05">
+		<sub_link voceit="OCCHIALI" voceen="Eyeglasses" vocefr="Lunettes" vocede="Gläser" vocees="Gafas" idarray="25" gender="b" updw="Y" CP="M" canvas="2" mclev="3" cnumm="11" cnumf="0">02</sub_link>
+		<sub_link voceit="COLLANE" voceen="Necklaces" vocefr="Colliers" vocede="Ketten" vocees="Collares" idarray="26" gender="b" CP="M" canvas="6" mclev="6" cnumm="1" cnumf="0">03</sub_link>
+		<sub_link voceit="ORECCHINI" voceen="Earrings" vocefr="Boucles" vocede="Ohrringe" vocees="Pendientes" idarray="27" gender="b" CP="M" canvas="5" mclev="1" cnumm="1" cnumf="0">04</sub_link>
+		<sub_link voceit="PIERCING" voceen="Piercing" vocefr="Piercing" vocede="Piercing" vocees="Piercing" idarray="28" gender="b" updw="Y" CP="M" canvas="3" mclev="5" cnumm="1" cnumf="0">05</sub_link>
+		<sub_link voceit="TATTO" voceen="Tattoo" vocefr="Tatouage" vocede="Tattoo" vocees="Tatuaje" idarray="29" gender="b" canvas="4" mclev="3" cnumm="1" cnumf="0">06</sub_link>
+		<sub_link voceit="GADGETS" voceen="Gadgets" vocefr="Gadgets" vocede="Gadgets" vocees="Gadgets" idarray="30" gender="b" updw="Y" CP="M" canvas="1" mclev="2" cnumm="1" cnumf="0">07</sub_link>
+		<sub_link voceit="MASCHERE" voceen="Masks" vocefr="Masques" vocede="Masken" vocees="Máscaras" idarray="31" gender="b" CP="M" canvas="1" mclev="0" cnumm="1" cnumf="0">08</sub_link>
+	</link>
+	
+
+
+
+     
+	<!-- SFONDO -->
+	<link voceit="SFONDO" voceen="Background" vocefr="Arrière-plan" vocede="Hintergrund" vocees="Fondo" dir="06">
+		<sub_link voceit="PIENO" voceen="Filled" vocefr="Complet" vocede="Voll" vocees="Lleno" idarray="32" gender="b" canvas="7" mclev="0" cnumm="84" cnumf="84">01</sub_link>
+		<sub_link voceit="MOTIVO" voceen="Pattern" vocefr="Modèle" vocede="Muster" vocees="Estampado" idarray="33" gender="b" CP="M" canvas="7" mclev="1" cnumm="31" cnumf="31">02</sub_link>
+		<sub_link voceit="TEMA" voceen="Theme" vocefr="Thème" vocede="Thema" vocees="Tema" idarray="34" gender="b" canvas="7" mclev="2" cnumm="0" cnumf="0">03</sub_link>
+		<sub_link voceit="METEO" voceen="Weather" vocefr="Temps" vocede="Wetter" vocees="Tiempo" idarray="35" gender="b" canvas="1" mclev="3" cnumm="1" cnumf="1">04</sub_link>
+	</link>
+	
+	
+	
+	
+
+	<!-- MAKE-UP -->
+	<link voceit="MAKE UP" voceen="Make Up" vocefr="Maquillage" vocede="Make Up" vocees="Maquillaje" dir="07">
+		<sub_link voceit="OCCHI" voceen="Eyes" vocefr="Yeux" vocede="Augen" vocees="Ojos" idarray="36" gender="b" CP="M" mkup="Y" canvas="4" mclev="4" cnumm="1" BG="W" cnumf="1">01</sub_link>
+		<sub_link voceit="VISO" voceen="Face" vocefr="Masques" vocede="Masken" vocees="Máscaras" idarray="37" gender="b" CP="M" mkup="Y" canvas="4" mclev="5" BG="W" cnumm="1" cnumf="1">02</sub_link>
+		<sub_link voceit="BOCCA" voceen="Mouth" vocefr="Visage" vocede="Gesicht" vocees="Cara" idarray="38" gender="b" CP="M" mkup="Y" canvas="7" mclev="100" BG="W" cnumm="0" cnumf="0">03</sub_link>
+	</link>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- OTHERS (movieclip non gestiti direttamente dall'utente) -->
+	<link voceit="OTHERS" dir="08" hidden="Y">
+		<sub_link voceit="COLLO" idarray="39" gender="b" canvas="6" mclev="0" cnumm="0" cnumf="1">01</sub_link>
+		<sub_link voceit="CONTORNO_FORMA_VISO" idarray="40" gender="b" canvas="4" mclev="12" cnumm="0" cnumf="1">02</sub_link>
+		<sub_link voceit="BASE_SOPRACCIGLIA" idarray="41" gender="b" canvas="4" mclev="1" cnumm="0" cnumf="1">03</sub_link>
+		<sub_link voceit="COLLETTO" idarray="43" gender="b" canvas="6" mclev="7" cnumm="0" cnumf="1">04</sub_link>
+		
+		<!-- *************************************************************************************** -->
+		
+		<sub_link voceit="CAPELLI_CORTI_CONTORNO" idarray="44" gender="b" canvas="7" mclev="4" cnumm="0" cnumf="0">05</sub_link>
+		<sub_link voceit="CAPELLI_CORTI_BASE" idarray="45" gender="b" canvas="7" mclev="3" cnumm="0" cnumf="0">06</sub_link>
+		
+		<sub_link voceit="CAPELLI_LUNGHI_CONTORNO" idarray="46" gender="b" canvas="7" mclev="4" cnumm="0" cnumf="0">07</sub_link>
+		<sub_link voceit="CAPELLI_LUNGHI_BASE" idarray="47" gender="b" canvas="7" mclev="3" cnumm="0" cnumf="0">08</sub_link>
+		
+		<!-- **************************************************************************************** -->
+		
+		<sub_link voceit="CAPELLI_CREA_FRANGIA" idarray="48" gender="b" canvas="2" mclev="2" cnumm="0" cnumf="0">09</sub_link>
+		<sub_link voceit="CAPELLI_CREA_CONTORNO" idarray="49" gender="b" canvas="7" mclev="4" cnumm="0" cnumf="0">10</sub_link>
+		<sub_link voceit="CAPELLI_CREA_BASE" idarray="50" gender="b" canvas="7" mclev="3" cnumm="0" cnumf="0">11</sub_link>
+	</link>
+	
+	
+</treeRoot>
