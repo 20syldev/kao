@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Next.js build and generated files
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# Test output
+test-results/
+playwright-report/
+
+# Release bundle, built by the release workflow
+dist/
+
+# ffdec and the files exported from the engine, created by scripts/ffdec.sh and scripts/engine.sh
+tools/
+
+# Python byte code
+__pycache__/
+
+# Operating system and editors
+.DS_Store
+*.log
+.idea/
+.vscode/

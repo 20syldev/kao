@@ -1,0 +1,9 @@
+.next/
+out/
+public/ruffle/
+public/library/
+tools/
+test-results/
+playwright-report/
+package-lock.json
+next-env.d.ts
