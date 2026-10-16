@@ -1,7 +1,10 @@
-import { parseCode } from "@/lib/codes";
-import type { SavedAvatar } from "@/types/avatar";
+import { CODE_EXTENSION, parseCode } from "@/lib/codes";
+import type { AvatarCode, SavedAvatar } from "@/types/avatar";
 
-export const BACKUP_FILENAME = "kao-avatars.json";
+export type KaoFile =
+    { kind: "avatar"; code: AvatarCode } | { kind: "collection"; avatars: SavedAvatar[] };
+
+export const BACKUP_FILENAME = `avatars.${CODE_EXTENSION}`;
 
 // A thumbnail is shown as an image source, so only image data URLs are accepted
 const THUMB_PATTERN = /^data:image\/(png|jpeg|webp);base64,[A-Za-z0-9+/=]+$/;
@@ -52,4 +55,21 @@ export function parseBackup(text: string): SavedAvatar[] | null {
     }
 
     return avatars;
+}
+
+/**
+ * Reads the content of a .kao file, which holds either one avatar or a backup of the whole
+ * history. The kind is told by the content, never by the file name.
+ *
+ * @param text - Raw text of the file
+ * @returns The avatar or the collection it holds, or null when it is neither
+ */
+export function readKaoFile(text: string): KaoFile | null {
+    const avatars = parseBackup(text);
+
+    if (avatars) return { kind: "collection", avatars };
+
+    const code = parseCode(text);
+
+    return code ? { kind: "avatar", code } : null;
 }
