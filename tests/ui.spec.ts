@@ -4,7 +4,8 @@ import { expect, test } from "@playwright/test";
 
 import { choose, download } from "./stage";
 
-const BACKUP = fileURLToPath(new URL("fixtures/avatars.json", import.meta.url));
+const BACKUP = fileURLToPath(new URL("fixtures/avatars.kao", import.meta.url));
+const SINGLE = fileURLToPath(new URL("fixtures/avatar.kao", import.meta.url));
 
 test("rejects an invalid avatar code", async ({ page }) => {
     await page.goto("/");
@@ -81,12 +82,42 @@ test("backs up and restores the avatar history", async ({ page }) => {
         page,
         history.getByRole("button", { name: "Save a backup of my avatars" }),
     );
-    expect(backup.name).toBe("kao-avatars.json");
+    expect(backup.name).toBe("avatars.kao");
     expect(JSON.parse(backup.data.toString()).avatars).toHaveLength(2);
 
     await restore.setInputFiles(BACKUP);
     await expect(page.getByText("No new avatar")).toBeVisible();
     await expect(history.getByRole("listitem")).toHaveCount(2);
+});
+
+test("opens a whole backup with the same button as a single avatar", async ({ page }) => {
+    await page.goto("/");
+    await page
+        .getByRole("region", { name: "Avatar codes" })
+        .locator('input[type="file"]')
+        .setInputFiles(BACKUP);
+
+    await expect(page.getByText("2 avatars restored")).toBeVisible();
+    await expect(
+        page.getByRole("region", { name: "My avatars" }).getByRole("listitem"),
+    ).toHaveCount(2);
+});
+
+test("explains where to open a single avatar when it is given as a backup", async ({ page }) => {
+    await page.goto("/");
+    await page.locator('[data-slot="history-import"]').setInputFiles(SINGLE);
+
+    await expect(page.getByText("This file is not an avatar backup.")).toBeVisible();
+});
+
+test("rejects a file that holds no avatar", async ({ page }) => {
+    await page.goto("/");
+    await page
+        .getByRole("region", { name: "Avatar codes" })
+        .locator('input[type="file"]')
+        .setInputFiles({ name: "x.kao", mimeType: "text/plain", buffer: Buffer.from("nothing") });
+
+    await expect(page.getByText("Could not open this file.")).toBeVisible();
 });
 
 test("toggles the dark theme", async ({ page }) => {
