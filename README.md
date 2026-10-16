@@ -14,7 +14,8 @@ high-resolution export. Live at <https://kao.sylvain.sh>.
 - Export from 360 to 4320 px as transparent PNG, PNG on white, JPEG or WebP, drawn from the
   vector artwork: never upscaled, never blurry.
 - A `.kao` code with every export, to reopen and keep editing the same avatar.
-- _My avatars_: the exported avatars, kept in the browser's `localStorage`.
+- _My avatars_: the exported avatars, kept in the browser's `localStorage`, and saved to or restored
+  from a single `.kao` file.
 - Fully static and offline: nothing leaves the browser.
 
 <picture>
