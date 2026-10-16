@@ -55,7 +55,7 @@ export function CodesPanel({ onNew, onFile, onPaste }: CodesPanelProps) {
             <input
                 ref={input}
                 type="file"
-                accept={`.${CODE_EXTENSION},.json,.txt`}
+                accept={`.${CODE_EXTENSION}`}
                 hidden
                 onChange={(event) => {
                     const file = event.target.files?.[0];

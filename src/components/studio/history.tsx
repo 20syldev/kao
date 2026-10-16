@@ -8,7 +8,8 @@ import { Tile } from "@/components/studio/tile";
 import { Button } from "@/components/ui/button";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import { useHistory } from "@/hooks/useHistory";
-import { BACKUP_FILENAME, parseBackup, serializeBackup } from "@/lib/backup";
+import { BACKUP_FILENAME, readKaoFile, serializeBackup } from "@/lib/backup";
+import { CODE_EXTENSION } from "@/lib/codes";
 import { downloadFile } from "@/lib/download";
 import { mergeAvatars } from "@/lib/history";
 import type { SavedAvatar } from "@/types/avatar";
@@ -40,14 +41,14 @@ export function HistoryPanel({ className, onOpen, onRemove }: HistoryPanelProps)
     };
 
     const importBackup = async (file: File) => {
-        const avatars = parseBackup(await file.text());
+        const content = readKaoFile(await file.text());
 
-        if (!avatars || avatars.length === 0) {
+        if (content?.kind !== "collection" || content.avatars.length === 0) {
             toast.error(t("importInvalid"));
             return;
         }
 
-        toast.success(t("imported", { count: mergeAvatars(avatars) }));
+        toast.success(t("imported", { count: mergeAvatars(content.avatars) }));
     };
 
     return (
@@ -90,7 +91,7 @@ export function HistoryPanel({ className, onOpen, onRemove }: HistoryPanelProps)
                     <input
                         ref={input}
                         type="file"
-                        accept="application/json,.json"
+                        accept={`.${CODE_EXTENSION}`}
                         data-slot="history-import"
                         hidden
                         onChange={(event) => {

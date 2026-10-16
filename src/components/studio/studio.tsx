@@ -18,9 +18,10 @@ import { useExportBridge } from "@/hooks/useExportBridge";
 import { useFullscreen } from "@/hooks/useFullscreen";
 import { usePreference } from "@/hooks/usePreference";
 import { useRuffle } from "@/hooks/useRuffle";
-import { CODE_EXTENSION, parseCode, serializeCode, slugify } from "@/lib/codes";
+import { readKaoFile } from "@/lib/backup";
+import { CODE_EXTENSION, serializeCode, slugify } from "@/lib/codes";
 import { downloadFile } from "@/lib/download";
-import { removeAvatar, restoreAvatar, saveAvatar } from "@/lib/history";
+import { mergeAvatars, removeAvatar, restoreAvatar, saveAvatar } from "@/lib/history";
 import { renderAvatar } from "@/lib/pixels";
 import type {
     AvatarCode,
@@ -36,7 +37,9 @@ import type {
  * takes the remaining height and scrolls. Below 2xl the editor is not tall enough to balance that
  * column, so the history goes full width at the bottom instead, plus the result and paste dialogs. It owns the avatar
  * being edited, receives the exports from the patched SWF and reloads the editor after each
- * save, since the engine then waits for a server reply that never comes.
+ * save, since the engine then waits for a server reply that never comes. A .kao file opened from
+ * the codes tile is told by its content: one avatar goes to the editor, a backup is merged into
+ * the history.
  */
 export function Studio() {
     const t = useTranslations("studio");
@@ -105,10 +108,15 @@ export function Studio() {
     };
 
     const openFile = async (file: File) => {
-        const code = parseCode(await file.text());
+        const content = readKaoFile(await file.text());
 
-        if (code) openAvatar(code);
-        else toast.error(t("errors.open"));
+        if (content?.kind === "avatar") {
+            openAvatar(content.code);
+        } else if (content?.kind === "collection" && content.avatars.length > 0) {
+            toast.success(t("history.imported", { count: mergeAvatars(content.avatars) }));
+        } else {
+            toast.error(t("errors.open"));
+        }
     };
 
     const removeFromHistory = (item: SavedAvatar) => {
