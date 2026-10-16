@@ -46,7 +46,7 @@
         "exportBackup": "Save a backup of my avatars",
         "importBackup": "Restore avatars from a backup",
         "imported": "{count, plural, =0 {No new avatar} one {# avatar restored} other {# avatars restored}}",
-        "importInvalid": "This file is not a valid avatar backup."
+        "importInvalid": "This file is not an avatar backup. To open a single avatar, use Open a file."
     },
     "result": {
         "untitled": "Exported avatar",

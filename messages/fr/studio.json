@@ -46,7 +46,7 @@
         "exportBackup": "Enregistrer une sauvegarde de mes avatars",
         "importBackup": "Restaurer des avatars depuis une sauvegarde",
         "imported": "{count, plural, =0 {Aucun nouvel avatar} one {# avatar restauré} other {# avatars restaurés}}",
-        "importInvalid": "Ce fichier n’est pas une sauvegarde d’avatars valide."
+        "importInvalid": "Ce fichier n’est pas une sauvegarde d’avatars. Pour ouvrir un seul avatar, utilisez Ouvrir un fichier."
     },
     "result": {
         "untitled": "Avatar exporté",
